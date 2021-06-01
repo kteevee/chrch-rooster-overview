@@ -1,5 +1,10 @@
 <?php
 
+/**
+* PHP script om meerdere tabbladen van het rooster op Google Docs rooster voor chrch.app samen te voegen (alternatief voor overview-tabblad)
+* Auteur: Kaj ten Voorde
+*/
+
 $sheet_sources = explode("\n", file_get_contents('rooster_sheets.txt'));
 
 $totaal_sheet_array = array();
